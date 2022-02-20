@@ -1,0 +1,7 @@
+:root {
+    --mainColor: purple;
+}
+
+p {
+    color: var(--mainColor);
+}

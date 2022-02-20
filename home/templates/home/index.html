@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>Holtyc</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+ 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" type="text/css" href="{% static 'css/default.css' %}">
+        <link id="theme-style" rel="stylesheet" type="text/css" href="">
+    </head>
+
+    <body>
+    
+        <section class="s1">
+                            
+                <div class="logo-image">
+                    <img id="logo-image" src="{% static 'images/holtyc.png' %}" alt="My images">
+                </div>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#about-us">About</a>
+                    <a href="#crew">Crew</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <script type="text/javascript" src="{% static 'js/navigation-bar.js' %}"></script>
+                  
+
+
+                <div class="main-container">
+                    <div class="intro-wrapper">
+                        <div id="nav_wrapper">
+                            <div class="dots-wrapper">
+                                <div id='dot-1' class="browser-dot"></div>
+                                <div id='dot-2' class="browser-dot"></div>
+                                <div id='dot-3' class="browser-dot"></div>
+                            </div>
+                        
+                            <div class="navigation-bar">    
+                                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                            </div>
+                        </div>
+                       
+                        <img id="console-image" src="{% static 'images/console.jpg' %}" alt="console"> 
+                        
+                    </div>
+                </div>
+        </section>
+        <section class="s2">
+            <div class="main-container" id="about-us">
+    
+                <div class="about-wrapper"> 
+                    <div class="about-us">
+                        <h4>More about us</h4>
+
+    
+                        <p>I build new projects just to tickle my brain and love teaching others how they're made.</p>
+    
+                        <p>While I keep busy teaching courses, I still take interviews in search of a great team & projects that interest me.</p>
+    
+    
+                        <hr>
+    
+                        <h4>TOP EXPERTISE</h4>
+    
+                        <p>Fullstack developer with primary focus on Django + React: <a target="_blank" href="resume.pdf">Download Resume</a></p>
+                    </div>
+                    
+                    
+                    
+                    <div class="social-links">
+                        <img id="social_img" src="{% static 'images/follow.jpg'%}">
+                        <h3>Find me on Instagram and Youtube</h3>
+                        
+                        <a target="_blank" href="#">Youtube @stepos</a>
+                        <br>
+                        <a targer="_blank" href="#">Instagrem @kolias_stepan</a>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <section class="s1">
+            <div class="main-container">
+    
+                <div class="about-wrapper">
+                    <div class="social-links">
+                        <img id="social_img" src="{% static 'images/follow.jpg'%}">
+                        <h3>Find me on Instagram and Youtube</h3>
+                        
+                        <a target="_blank" href="#">Youtube @stepos</a>
+                        <br>
+                        <a targer="_blank" href="#">Instagrem @kolias_stepan</a>
+                    </div>
+
+
+
+                    <div class="about-me">
+                        <h4>More about us</h4>
+    
+                        <p>I build new projects just to tickle my brain and love teaching others how they're made.</p>
+    
+                        <p>While I keep busy teaching courses, I still take interviews in search of a great team & projects that interest me.</p>
+    
+    
+                        <hr>
+    
+                        <h4>TOP EXPERTISE</h4>
+    
+                        <p>Fullstack developer with primary focus on Django + React: <a target="_blank" href="resume.pdf">Download Resume</a></p>
+                    </div>                                                        
+                </div>
+    
+            </div>
+        </section>
+        <section class="s2">
+            <div class="main-container">
+    
+                <div class="about-wrapper">
+                    <div class="about-me">
+                        <h4>More about us</h4>
+    
+                        <p>I build new projects just to tickle my brain and love teaching others how they're made.</p>
+    
+                        <p>While I keep busy teaching courses, I still take interviews in search of a great team & projects that interest me.</p>
+    
+    
+                        <hr>
+    
+                        <h4>TOP EXPERTISE</h4>
+    
+                        <p>Fullstack developer with primary focus on Django + React: <a target="_blank" href="resume.pdf">Download Resume</a></p>
+                    </div>
+                    
+                    
+                    
+                    <div class="social-links">
+                        <img id="social_img" src="{% static 'images/follow.jpg'%}">
+                        <h3>Find me on Instagram and Youtube</h3>
+                        
+                        <a target="_blank" href="#">Youtube @stepos</a>
+                        <br>
+                        <a targer="_blank" href="#">Instagrem @kolias_stepan</a>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <section class="s1">
+            <div class="main-container"id="crew">
+                <h3 style="text-align: center; padding-top: 50px;">
+                    Skvadra</h3>
+                <!-- <div id="crew" class="crew-anchor"></div> -->
+                <div class="crew-wrapper">
+
+                    <div class="crew-mamber">
+                        <img class="thumbnail" src="{% static 'images/dash.jpg'%}">
+                        <div class="post-preview">
+                            <h6 class="post-title">Membership Website</h6>
+                            <p class="post-intro">Modulized guide for online courses with step by  step intructions  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
+                        
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+
+
+                    <div class="crew-mamber">
+                      <img class="thumbnail" src="{% static 'images/membership.jpg'%}">
+                        <div class="post-preview">
+                            <h6 class="post-title">Online Store - CoursePost Title</h6>
+                            <p class="post-intro">Online store with paypal payments intergration and guest user shopping</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+
+
+                    <div class="crew-mamber">
+                        <img class="thumbnail" src="{% static 'images/ecom.jpg'%}">
+                        <div class="post-preview">
+                            <h6 class="post-title">Laboratory Management System</h6>
+                            <p class="post-intro">Designed built & mantained a the lab managment system for FOI Laboratories</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                </div>
+            </div> 
+       
+        </section>
+        <section class="s2">
+            <div class="main-container" id="contact">
+                    <div class="contact-container">
+                        <h3 style="text-align: center; padding-top: 30px;">Contact us</h3>
+
+                        <form id="contact-form" method="post" action="{% url 'send_email' %}">
+                            {% csrf_token %}
+
+                            <label>Name</label>
+                            <input class="input-field" type="text" name="name" required>
+
+                            <label>Subject</label>
+                            <input class="input-field" type="text" name="subject">
+
+                            <label>Email</label>
+                            <input class="input-field" type="text" name="email" required>
+
+
+                            <label>Message</label>
+                            <textarea class="input-field" name="message" required></textarea>
+                            {% if messages %}
+                                <ul class="messages">
+                                    {% for message in messages %}
+                                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+
+
+
+                            <input id="submit-btn" type="submit" value="Send">
+                        </form>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+
+
+
+    </body>
+</html>
