@@ -1,1 +1,2 @@
+web: pipenv shell
 web: gunicorn holtyc.wsgi
