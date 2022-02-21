@@ -1,2 +1,1 @@
-web: pipenv shell
-web: gunicorn holtyc.wsgi
+web: gunicorn holtyc.wsgi --log-file -
