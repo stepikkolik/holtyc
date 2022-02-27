@@ -124,7 +124,9 @@ html{scroll-behavior:smooth}
     background-color: #2aca3e;
 }
 
-
+.padding-top{
+    padding-top: 50px;
+}
 
 #logo-image{   
   padding-top: 20px;
@@ -141,8 +143,10 @@ html{scroll-behavior:smooth}
 
 
 #console-image{
+    padding-top: 20px;
+    padding-bottom: 20px;
     object-fit:contain;
-    max-width: 65%;
+    max-width: 45%;
     min-width: 350px;
     height:auto;
     margin-left: auto;
