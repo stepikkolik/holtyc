@@ -9,6 +9,7 @@ gunicorn = "*"
 django-heroku = "*"
 pip = "*"
 install = "*"
+python-decouple = "*"
 
 [dev-packages]
 
